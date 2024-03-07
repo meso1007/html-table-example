@@ -8,8 +8,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     -webkit-font-smoothing: antialiased;
+    font-size: 30px;
 }
 
 nav {
@@ -61,7 +62,7 @@ table {
     width: 100%;
     white-space: nowrap;
     /* background-color: rgb(238, 237, 237); */
-    font-size: 16px;
+    font-size: 20px;
 }
 
 caption {
@@ -72,12 +73,8 @@ caption {
     background-color: white;
 }
 
-table th,
-table td {
-    padding: 8px;
-    text-align: center;
-    border-left: solid 1px gray;
-    border-bottom: solid 1px gray;
+thead img {
+    max-width: 160px;
 }
 
 table th,
@@ -86,4 +83,9 @@ table td {
     text-align: center;
     border-left: solid 1px lightblue;
     border-bottom: solid 1px lightblue;
+}
+
+tbody th,
+#space {
+    border-left: 0;
 }

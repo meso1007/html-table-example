@@ -71,7 +71,7 @@ caption {
 
 .sch-table th,
 .sch-table td {
-    padding: 8px;
+    padding: 20px;
     text-align: center;
     border-left: solid 1px gray;
     border-bottom: solid 1px gray;
@@ -100,6 +100,7 @@ caption {
 
 .sch-table tbody th {
     color: royalblue;
+    border-left: 0;
 }
 
 
