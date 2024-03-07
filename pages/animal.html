@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>HTML TABLE EXAMPLE</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Schdule</a></li>
+            <li><a href="./comparsion.html">Comparison</a></li>
+            <li><a href="#">Animal</a></li>
+        </ul>
+    </nav>
+
+
+
+    <h2 id="animal species chart">Animal Spices Chart</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="course-schedule-table">
+            <caption>Fig 1: Schedules for Semester 4 courses.</caption>
+            <thead>
+                <tr>
+                    <th id="lion" scope="col"><img src="../photo/lion.jpg" alt="lion"></th>
+                    <th id="elephant" scope="col"><img src="../photo/elephant.jpg" alt="elephant"></th>
+                    <th id="proA" scope="col"><img src="../photo/whale.jpg" alt="whale"></th>
+                    <th id="proB" scope="col">Product B</th>
+                    <th id="proC" scope="col">Product C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="durability" scope="row">Durability</th>
+                    <td headers="dur proA">10/10</th>
+                    <td headers="dur proB">5/10</th>
+                    <td headers="dur proC">7/10</th>
+                </tr>
+                <tr>
+                    <th id="design" scope="row">Design</th>
+                    <td headers="des proA">3/10</th>
+                    <td headers="des proB">8/10</th>
+                    <td headers="des proC">7/10</th>
+                </tr>
+                <tr>
+                    <th id="usability" scope="row">Usability</th>
+                    <td headers="usa proA">7/10</th>
+                    <td headers="usa proB">10/10</th>
+                    <td headers="usa proC">5/10</th>
+                </tr>
+                <tr>
+                    <th id="price" scope="row">Price</th>
+                    <td headers="pri proA">9/10</th>
+                    <td headers="pri proB">7/10</th>
+                    <td headers="pri proC">3/10</th>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+
+</html>

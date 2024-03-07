@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>HTML TABLE EXAMPLE</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Schdule</a></li>
+            <li><a href="./pages/comparsion.html">Comparison</a></li>
+            <li><a href="./pages/animal.html">Animal</a></li>
+        </ul>
+    </nav>
+    <h2 id="course-schedule-table">Semester II Schedule</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="course-schedule-table" class="sch-table">
+            <caption>Fig 1: Schedules for Semester 4 courses.</caption>
+            <thead>
+                <tr>
+                    <th id="course" scope="col">Course</th>
+                    <th id="time" scope="colgroup" colspan="2">Time</th>
+                    <th id="room" scope="col">Room</th>
+                    <th id="day" scope="col">Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="english" scope="rowgroup" rowspan="2">English II</th>
+                    <td headers="eng1 time1">9:00</th>
+                    <td headers="eng1 time2">11:00</th>
+                    <td headers="eng1 room">L2201</th>
+                    <td headers="eng1 day">Monday</th>
+                </tr>
+                <tr>
+                    <td headers="eng2 time1">9:00</th>
+                    <td headers="eng2 time2">11:00</th>
+                    <td headers="eng2 room">L2201</th>
+                    <td headers="eng2 day">Wednesday</th>
+                </tr>
+
+                <tr>
+                    <th id="giography" scope="row">Geography</th>
+                    <td headers="gio time1">11:00</th>
+                    <td headers="gio time2">12:45</th>
+                    <td headers="gio room">G107</th>
+                    <td headers="gio day">Tuesday</th>
+                </tr>
+                <tr>
+                    <th id="biology" scope="row">Biology</th>
+                    <td headers="gio time1">9:00</th>
+                    <td headers="gio time2">12:45</th>
+                    <td headers="gio room">B302</th>
+                    <td headers="gio day">Friday</th>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+
+    </div>
+</body>
+
+</html>

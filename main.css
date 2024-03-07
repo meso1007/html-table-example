@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav {
+    padding: 16px;
+}
+
+nav ul {
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 12px;
+    text-decoration: none;
+}
+nav ul li a {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+#course-schdule-table {
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+/* Table style rules */
+
+.table-wrapper {
+    background-color: rgba(0,0,0,0);
+    margin: 10px 20px 20px;
+    box-shadow: 0px 15px 50px rgb(0, 0, 0, 0.2);
+}
+
+table {
+    border-radius: 5px;
+    width: 100%;
+    white-space: nowrap;
+    /* background-color: rgb(238, 237, 237); */
+    font-size: 16px;
+}
+
+caption {
+    margin-bottom: 14px;
+    caption-side: bottom;
+    font-style: italic;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sch-table th,
+.sch-table td {
+    padding: 8px;
+    text-align: center;
+    border-left: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+
+.com-table th,
+.com-table td {
+    padding: 20px;
+    text-align: center;
+    border-left: solid 1px lightblue;
+    border-bottom: solid 1px lightblue;
+}
+
+.com-table tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+.com-table tbody tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+
+.sch-table thead th{
+    background-color: royalblue;
+    color: white;
+}
+
+.sch-table tbody th {
+    color: royalblue;
+}
+
+
+.com-table thead th{
+    background-color: lightsteelblue;
+}
+
+.com-table tbody th {
+    text-align: left;
+}
+
+#space {
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 0px;
+    border-bottom: 0px;
+}
